@@ -21,5 +21,6 @@ public class CountFrequency {
         System.out.println(name);
         String str = "MOOHIT";
         solution(str);
+        sc.close();
     }
 }
