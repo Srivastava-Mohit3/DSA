@@ -21,8 +21,10 @@ public class SortColors {
                     arr[i] = 1;
                     ones--;
                 } else {
-                    arr[i] = 2;
-                    twos--;
+                    if(twos > 0) {
+                        arr[i] = 2;
+                        twos--;
+                    }
                 }
             }
         }
