@@ -1,3 +1,4 @@
+package arrays;
 public class PrintNTimes {
     public static void solution(int i, int N) {
         if (i > N)

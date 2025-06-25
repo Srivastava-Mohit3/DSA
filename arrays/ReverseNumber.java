@@ -1,3 +1,4 @@
+package arrays;
 public class ReverseNumber {
     private static int solution(int num) {
         int rev = 0;

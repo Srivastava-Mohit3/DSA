@@ -1,3 +1,4 @@
+package arrays;
 public class CheckForPrime {
     public static Boolean solution(int num){
         for (int i = 2; i < num/2; i++) {

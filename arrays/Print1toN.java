@@ -1,3 +1,4 @@
+package arrays;
 public class Print1toN {
     public static void solution(int i, int N) {
         if (i > N)

@@ -1,3 +1,4 @@
+package arrays;
 public class FindIndexFirstOccurrenceString {
     // public static boolean compare(String hayStack, String needle, int i) {
     //     for (int j = 0; j < needle.length(); j++) {

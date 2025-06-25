@@ -1,3 +1,4 @@
+package arrays;
 public class PrintNto1 {
     public static void solution(int N) {
         if (N == 0)

@@ -1,3 +1,4 @@
+package arrays;
 public class PalindromeNumber {
     public static Boolean solution(int num) {
         int original = num;

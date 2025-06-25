@@ -1,3 +1,4 @@
+package arrays;
 public class SortColors {
     public static int[] solution(int arr[]) {
         int zeros = 0;

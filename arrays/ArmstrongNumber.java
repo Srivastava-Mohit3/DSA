@@ -1,3 +1,4 @@
+package arrays;
 public class ArmstrongNumber {
     public static Boolean solution(int num) {
         int count = 0;

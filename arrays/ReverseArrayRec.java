@@ -1,3 +1,4 @@
+package arrays;
 public class ReverseArrayRec {
     public static void solution(int arr[], int left, int right) {
         if(left >= right) return;

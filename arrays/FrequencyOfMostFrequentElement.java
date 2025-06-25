@@ -1,3 +1,4 @@
+package arrays;
 public class FrequencyOfMostFrequentElement {
     public static int solution(int arr[], int k){
         int count = 0;

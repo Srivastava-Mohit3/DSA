@@ -1,3 +1,4 @@
+package arrays;
 public class ValidPalindrome {
     public static Boolean solution(String s) {
         s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();

@@ -1,3 +1,4 @@
+package arrays;
 public class SumOfFirstNNumbers {
     public static int solution(int num) {
         if (num == 0)

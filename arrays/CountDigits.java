@@ -1,3 +1,4 @@
+package arrays;
 public class CountDigits {
     public static int solution(int num) {
         num = Math.abs(num);

@@ -1,3 +1,4 @@
+package arrays;
 public class FactorialOfNNumbers {
     public static int solution(int num) {
         if (num == 0)

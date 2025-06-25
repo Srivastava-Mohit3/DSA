@@ -1,3 +1,4 @@
+package arrays;
 public class MaxConsecutiveOnes {
     public static int solution(int arr[]) {
         int count = 0;
