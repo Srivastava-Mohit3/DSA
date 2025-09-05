@@ -1,4 +1,4 @@
-package strings;
+// package strings;
 
 public class LengthLastWord {
     public static int lengthOfLastWord(String s) {
