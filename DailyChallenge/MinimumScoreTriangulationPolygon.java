@@ -2,7 +2,7 @@ package DailyChallenge;
 
 public class MinimumScoreTriangulationPolygon {
     public static int minScoreTriangulation(int[] values) {
-        int minScore = Integer.MAX_VALUE;
+        // int minScore = Integer.MAX_VALUE;
         if(values.length == 3) {
             int res = 1;
             for (int i = 0; i < values.length; i++) {
