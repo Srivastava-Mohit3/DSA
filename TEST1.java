@@ -1,12 +1,23 @@
-public class TEST1 {
+import java.util.Arrays;
+import java.util.Collections;
 
+public class TEST1 {
     public static void main(String[] args) {
-        // char num = '10';
-        String num = "Hello";
-        String a = "Mohit";
-        String b = "Mohit";
-        System.out.println("a == b:- " + (a == b));
-        System.out.println("a.equals(b):- " + a.equals(b));
-        System.out.println(num.valueOf(1));
+        int arr[] = {10,4,8,3};
+        Arrays.sort(arr);
+        int left = 0;
+        int right = arr.length - 1;
+        while (left < right) {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+        int sum = 0;
+        for (int i = 0; i < arr.length; i += 3) {
+            sum += arr[i] + arr[i + 1];
+        }
+        System.out.println(sum);
     }
-}   
+}
