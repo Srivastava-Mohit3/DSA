@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Stack;
 
-public class ConcatenateNonZeroDigitsMultiplySum {
+public class ConcatenateNonZeroDigitsMultiplySumI {
     // public static long sumAndMultiply(int n) {
     //     Stack<Integer> st = new Stack<>();
     //     int sum = 0;
