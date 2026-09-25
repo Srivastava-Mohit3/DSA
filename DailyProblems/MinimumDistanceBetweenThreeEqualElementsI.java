@@ -4,10 +4,10 @@ import java.util.*;
 
 public class MinimumDistanceBetweenThreeEqualElementsI {
     public static int[] solution(int arr[]) {
-        HashMap<Integer, List<Integer>> map = new HashMap<>();
-        for (int t = 0; t < arr.length; t++) {
-            map.put(arr[t], map.getOrDefault(arr[t], ))
-        }
+        // HashMap<Integer, List<Integer>> map = new HashMap<>();
+        // for (int t = 0; t < arr.length; t++) {
+        //     map.put(arr[t], map.getOrDefault(arr[t], ))
+        // }
         return new int[] {};
     }
     public static void main(String[] args) {
