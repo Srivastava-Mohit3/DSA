@@ -4,7 +4,6 @@ interface Name {
 
 interface Email extends Name {
     void setEmail(String email);
-
 }
 
 class Main implements Email {
